@@ -1,4 +1,3 @@
-// Linked List, searching.
 // Search an element in a Linked List (Iterative and Recursive)
 // http://quiz.geeksforgeeks.org/search-an-element-in-a-linked-list-iterative-and-recursive/
 

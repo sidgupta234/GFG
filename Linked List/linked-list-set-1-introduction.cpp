@@ -1,4 +1,3 @@
-// Linked List creation.
 // Linked List | Set 1 (Introduction)
 // http://quiz.geeksforgeeks.org/linked-list-set-1-introduction/
 

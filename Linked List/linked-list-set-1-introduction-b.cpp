@@ -1,4 +1,3 @@
-// Linked List traversal.
 // Linked List | Set 1 (Introduction)
 // http://quiz.geeksforgeeks.org/linked-list-set-1-introduction/
 

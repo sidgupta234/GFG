@@ -1,4 +1,3 @@
-// Linked List, node deletion.
 // Linked List | Linked List | Set 3 (Deleting a node)
 // http://quiz.geeksforgeeks.org/linked-list-set-2-inserting-a-node/
 

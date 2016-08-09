@@ -1,4 +1,3 @@
-// Linked List length.
 // Find Length of a Linked List (Iterative and Recursive)
 // http://quiz.geeksforgeeks.org/find-length-of-a-linked-list-iterative-and-recursive/
 

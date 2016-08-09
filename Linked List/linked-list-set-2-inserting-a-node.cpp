@@ -1,4 +1,3 @@
-// inserting a node in a LinkedList.4
 // Linked List | Set 2 (Inserting a node)
 // http://quiz.geeksforgeeks.org/linked-list-set-2-inserting-a-node/
 
