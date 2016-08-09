@@ -1,4 +1,5 @@
-// inserting a node in a LinkedList.
+// inserting a node in a LinkedList.4
+// Linked List | Set 2 (Inserting a node)
 // http://quiz.geeksforgeeks.org/linked-list-set-2-inserting-a-node/
 
 #include<bits/stdc++.h>
@@ -9,6 +10,13 @@ struct node{
 	int data;
 	node *next;
 };
+
+void printList(node *head){
+	while(head){
+		cout<<head->data<<' ';
+		head = head->next;
+	}
+}
 
 void addBegin(node **head, int data){
 	// allocate node
@@ -72,12 +80,6 @@ void addLast(node **head, int data){
 
 }
 
-void printList(node *head){
-	while(head){
-		cout<<head->data<<' ';
-		head = head->next;
-	}
-}
 
 int main(){
 	struct node *head = NULL;
@@ -91,3 +93,8 @@ int main(){
 
 	return 0;
 }
+
+/*
+Output
+1 7 8 6 4 
+*/
