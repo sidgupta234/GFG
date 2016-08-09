@@ -16,8 +16,7 @@ struct Queue{
 Queue* createQueue(unsigned capacity){
 	Queue *queue = new Queue;
 	queue->capacity = capacity;
-	queue->front = queue->rear = -1; //front is at a place where you'd write
-	//queue->rear = capacity -1; // last writable element
+	queue->front = queue->rear = -1; 
 	queue->array = new int [capacity];
 	return queue;
 }
