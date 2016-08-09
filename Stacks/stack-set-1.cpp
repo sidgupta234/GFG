@@ -1,4 +1,4 @@
-// Linked List | Set 1 (Introduction)
+// Stack | Set 1 (Introduction)
 // http://quiz.geeksforgeeks.org/stack-set-1/
 
 // stack using arrays.

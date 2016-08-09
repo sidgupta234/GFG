@@ -1,11 +1,7 @@
-// Linked List | Set 1 (Introduction)
+// Stack | Set 1 (Introduction)
 // http://quiz.geeksforgeeks.org/stack-set-1/
 
-// stack using linked lists.
-// Linked List | Set 1 (Introduction)
-// http://quiz.geeksforgeeks.org/stack-set-1/
-
-// stack using arrays.
+// stack using LL.
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -21,10 +17,6 @@ bool isEmpty(Stacknode *top){
 
 	return false;
 }
-
-// bool isFull(Stack *top){
-
-// }
 
 void push(Stacknode **top, int data){
 	Stacknode *newnode = new Stacknode;
