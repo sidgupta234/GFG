@@ -49,10 +49,14 @@ int dequeue(Queue *queue){
 		return INT_MIN;
 
 	int item = queue->array[queue->front];
-	queue->front = (queue->front +1)%queue->capacity;
+	
 
 	if (queue->front == queue->rear){
 		queue->front = queue->rear = -1;
+	}
+
+	else{
+		queue->front = (queue->front +1)%queue->capacity;
 	}
 
 	return item;
@@ -84,19 +88,35 @@ int main(){
  
     printf("Front item is %d\n", front(queue));
     printf("Rear item is %d\n", rear(queue));
+ 	printf("%d dequeued from queue\n", dequeue(queue));
+ 	printf("%d dequeued from queue\n", dequeue(queue));
+ 	printf("%d dequeued from queue\n", dequeue(queue));
+ 	printf("%d dequeued from queue\n", dequeue(queue));
+    enqueue(queue, 10);
+    enqueue(queue, 20);
+    enqueue(queue, 30);
+ 
+ printf("%d dequeued from queue\n", dequeue(queue));
+ 
  
     return 0;
 }
 
 /*
 Output
-
 10 enqueued to queue
 20 enqueued to queue
 30 enqueued to queue
 40 enqueued to queue
 10 dequeued from queue
 Front item is 20
-Rear item is 40 
-
+Rear item is 40
+20 dequeued from queue
+30 dequeued from queue
+40 dequeued from queue
+-2147483648 dequeued from queue
+10 enqueued to queue
+20 enqueued to queue
+30 enqueued to queue
+10 dequeued from queue
 */
