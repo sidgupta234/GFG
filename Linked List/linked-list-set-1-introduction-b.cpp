@@ -1,4 +1,4 @@
-// Linked List creation.
+// Linked List traversal.
 // Linked List | Set 1 (Introduction)
 // http://quiz.geeksforgeeks.org/linked-list-set-1-introduction/
 
@@ -11,6 +11,13 @@ struct node{
 };
 
 
+void printList(node *head){
+	while(head){
+		cout<<head->data<<' ';
+		head = head->next;
+	}
+}
+
 int main(){
 	node *head = NULL;
 	node *second = NULL;
@@ -19,7 +26,7 @@ int main(){
 	head = new node;
 	second = new node;
 	third = new node;
-	
+
 	head -> data = 1;
 	head -> next = second;
 
@@ -28,6 +35,8 @@ int main(){
 
 	third -> data = 3;
 	third ->next = NULL;
-	
+
+	printList(head);
+
 	return 0;
 }
