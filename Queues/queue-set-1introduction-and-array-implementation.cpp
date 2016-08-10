@@ -1,6 +1,6 @@
 // Queue | Set 1 (Introduction and Array Implementation)
 // http://quiz.geeksforgeeks.org/queue-set-1introduction-and-array-implementation/
-
+// https://www.youtube.com/watch?v=okr-XE8yTO8
 // queue using array.
 
 #include <bits/stdc++.h>
