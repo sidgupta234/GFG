@@ -6,3 +6,9 @@ You need to find the inorder successor and predecessor of a given key. In case t
 then return the two values within which this key will lie. Following is the algorithm to reach the desired result. 
 */
 
+/*
+
+pseudo code
+	pair<a,b> function()
+
+*/
