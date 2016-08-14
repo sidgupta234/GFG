@@ -25,13 +25,15 @@ void heapify(int array[], int capacity, int i){
 }
 
 void heapSort(int array[], int n){
+// Build Heap
 	for(int i=n/2 -1; i>=0; i--){
 		heapify(array, n, i);
 	}
 
+// Extract Max.
 	for(int i=n-1; i>=0; i--){
+		cout<<array[0]<<' ';
 		swap(array[0], array[i]);
-		cout<<array[i]<<' ';
 		heapify(array, i, 0);	
 	}
 }
